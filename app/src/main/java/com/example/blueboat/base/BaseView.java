@@ -5,20 +5,15 @@ package com.example.blueboat.base;
  */
 public interface BaseView {
 
-    //    /**
-//     * 正在加载
-//     */
+    /**
+     * 正在加载
+     */
     void showLoading();
     //
-//    /**
-//     * 隐藏加载
-//     */
-    void hideLoading();
-
     /**
-     * 请求失败提示
+     * 隐藏加载
      */
-    void showFailure(String msg);
+    void hideLoading();
 
     /**
      * 请求异常提示
@@ -29,4 +24,5 @@ public interface BaseView {
      * 请求完成
      */
     void showFinished();
+
 }
